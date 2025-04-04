@@ -1,0 +1,34 @@
+Steps Involved:-
+
+Step 1: Environment Setup
+1. Install and configure a COBOL development environment such as IBM z/OS, VS Code with Zowe, or a mainframe emulator like Hercules.
+2. Ensure availability of a COBOL compiler (IBM Enterprise COBOL for mainframes or GnuCOBOL for local use).
+3. Set up JCL execution support using JES2/JES3 for running batch processes.
+
+Step 2: Preparing Input Datasets
+1. Create two Physical Sequential (PS) files:
+    a. File1: 50 records, 80 bytes each, with the primary key located in columns 13-20.
+    b. File2: 50 records, 80 bytes each, with the primary key in columns 21-28.
+2. Allocate these datasets on the mainframe using ISPF or JCL.
+3. Populate both files with sample data, ensuring the presence of matching and non-matching records.
+
+Step 3: Developing the COBOL Program
+1. Define file structures in the FILE SECTION of the COBOL program.
+2. Implement the INPUT-OUTPUT SECTION to handle opening, reading, and processing of both files.
+3. Extract and compare the primary keys from File1 and File2.
+4. Write only matching records to the output file (File3).
+5. Include error handling for missing or incorrectly formatted records.
+6. Ensure input files are sorted for optimal performance.
+
+Step 4: Setting Up the Output Dataset
+1. Create File3, a Physical Sequential (PS) file, to store matching records.
+2. Use JCL to allocate the dataset with appropriate attributes.
+3. Write the matching records from File1 and File2 into File3.
+
+Step 5: Writing and Running JCL
+1. Develop a JCL script to:
+    a. Define input and output datasets.
+    b. Compile and execute the COBOL program.
+    c. Use DFSORT to sort input files if required.
+    d. Validate the output dataset to confirm the expected results.
+2. Submit the JCL job and check for successful execution.

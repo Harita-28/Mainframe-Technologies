@@ -1,0 +1,50 @@
+DataFile2Entry    KEY00002 ABCDEFGH23456789XYZ                          
+DifferentEntry    KEY00005 QWERTY0987654321MNB                          
+TestRecord2       KEY00008 ZXCVBNM1122334455AAA                          
+SampleData        KEY00010 MNBVCXZ5566778899BBB                          
+InfoStored        KEY00015 ASDFGHJ1231231231CCC                          
+Verification      KEY00017 LKJHGFDS3213213213DDD                          
+CrossCheck        KEY00020 QWERTYUI6546546546EEE                          
+ValidationData    KEY00023 POIUYTRE9879879879FFF                          
+KeyCheckValue     KEY00027 ZXCVBNM4564564564GGG                          
+RecordStructure   KEY00030 MIKOLPUJ7897897897HHH                          
+DataOrganization  KEY00033 QWAZXSWE0001112222III                          
+SecureStorage     KEY00035 EDCVFRtg9876543210JJJ                          
+OptimizedProcess  KEY00039 BGTNHYMJ0987612345KKK                          
+TestingCase       KEY00042 NMLKJHGF5556667777LLL                          
+IntegrityCheck    KEY00045 ZZAASSDD1123581321MMM                          
+LogicalCheck      KEY00047 MNBVCXZ2233445566NNN                          
+SystemValidation  KEY00050 QWERTYUI7788990000OOO                          
+RandomValue       KEY00051 No match record                               
+UniqueRecord      KEY00052 No match record                               
+SampleTestCase    KEY00053 No match record                               
+OtherEntry        KEY00054 No match record                               
+ExtraRecord       KEY00055 No match record                               
+DataVerification  KEY00056 No match record                               
+ReportEntry       KEY00057 No match record                               
+SecurityTest      KEY00058 No match record                               
+DatasetSample     KEY00059 No match record                               
+TestingScenario   KEY00060 No match record                               
+StorageCheck      KEY00061 No match record                               
+EntryPoint        KEY00062 No match record                               
+ProcessCheck      KEY00063 No match record                               
+ConsistencyTest   KEY00064 No match record                               
+OptimizedEntry    KEY00065 No match record                               
+SecureKeyStorage  KEY00066 No match record                               
+DataValidation    KEY00067 No match record                               
+EntryIntegrity    KEY00068 No match record                               
+InformationCheck  KEY00069 No match record                               
+AnalysisReport    KEY00070 No match record                               
+RecordAnalysis    KEY00071 No match record                               
+UniqueKeyCheck    KEY00072 No match record                               
+FinalTest         KEY00073 No match record                               
+MatchingScenario  KEY00074 No match record                               
+EvaluationCase    KEY00075 No match record                               
+FieldEntry        KEY00076 No match record                               
+TestReview        KEY00077 No match record                               
+ScenarioCheck     KEY00078 No match record                               
+CaseValidation    KEY00079 No match record                               
+DataComparison    KEY00080 No match record                               
+SecurityReview    KEY00081 No match record                               
+DataStructure     KEY00082 No match record                               
+FinalRecord       KEY00083 No match record                               
