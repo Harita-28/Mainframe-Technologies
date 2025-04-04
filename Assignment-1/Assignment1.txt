@@ -1,0 +1,31 @@
+Steps involved:-
+
+Step 1: Setting Up the Environment
+1. Log in to IBM z/OS using TSO/ISPF
+2. Navigate to ISPF 3.2 to create and manage datasets.
+3. Ensure access to DFSORT for sorting operations.
+4. Verify JCL execution capabilities using JES2/JES3.
+
+Step 2: Creating the Input Dataset
+1. Use ISPF 3.2 to allocate a Physical Sequential (PS) file.
+2. Define a dataset with 100 records, each 80 bytes in length.
+3. Ensure the primary key is located in columns 13-20.
+4. Include 10 duplicate records and randomize the data order.
+
+Step 3: Writing the JCL SORT Job
+1. Use JCL to define and process the dataset.
+2. Implement DFSORT to:
+3. Eliminate duplicate records.
+4. Sort remaining records based on the primary key (columns 13-20).
+5. Define the input and output datasets.
+
+Step 4: Executing the JCL Job
+1. Submit the JCL script using SUB JCLFILE.
+2. Monitor job execution in SDSF (System Display and Search Facility).
+3. Verify the output dataset to ensure records are sorted and duplicates removed.
+
+Step 5: Validating the Output Dataset
+1. Open the output dataset in ISPF Edit/View mode.
+2. Confirm that:
+3. All 90 unique records are present.
+4. Records are sorted in ascending order based on columns 13-20.
