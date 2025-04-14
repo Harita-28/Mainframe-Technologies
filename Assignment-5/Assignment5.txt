@@ -12,10 +12,10 @@ The project consists of the following steps:
 ### Steps in the JCL
 
 1.  VSAM Cluster Definition (DEFVSAM): 
-   - This step defines a VSAM KSDS dataset (`Z67429. ASSIGN5.KSDS`), including its data and index components.
+   - This step defines a VSAM KSDS dataset (`Z66844. ASSIGN5.KSDS`), including its data and index components.
 
 2.  COBOL Program Compilation (COBRUN): 
-   - The COBOL program is compiled and linked using the IBM COBOL compiler (`IGYWCL`). The output is stored in the `Z67429.LOAD` dataset.
+   - The COBOL program is compiled and linked using the IBM COBOL compiler (`IGYWCL`). The output is stored in the `Z66844.LOAD` dataset.
 
 3.  Running the COBOL Program (RUN): 
    - This step executes the COBOL program ` ASSIGN5`, where the VSAM KSDS dataset is accessed and manipulated based on the logic in the COBOL code.
@@ -68,7 +68,7 @@ ID: 00000003 NAME: Employee Name 3 ADDRESS: Address 3 Street, City
 
 ## How to Run
     Step 1: Define the VSAM KSDS
-        - Run the `DEFVSAM` step to create the VSAM dataset. Ensure the `Z67429. ASSIGN5.KSDS` dataset is successfully created.
+        - Run the `DEFVSAM` step to create the VSAM dataset. Ensure the `Z66844. ASSIGN5.KSDS` dataset is successfully created.
 
     Step 2: Compile the COBOL Program
         - Execute the `COBRUN` step to compile and link the COBOL program.
@@ -82,4 +82,4 @@ ID: 00000003 NAME: Employee Name 3 ADDRESS: Address 3 Street, City
    - The VSAM dataset may not be created if the `DEFVSAM` step fails. Ensure the cluster is defined correctly.
 
 -  Dataset Issues: 
-   - If the dataset `Z67429. ASSIGN5.KSDS` already exists, you may need to delete it before running the `DEFVSAM` step.
+   - If the dataset `Z66844. ASSIGN5.KSDS` already exists, you may need to delete it before running the `DEFVSAM` step.
