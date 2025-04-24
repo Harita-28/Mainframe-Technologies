@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@zowe/cli": "^8.19.0"
+  }
+}
